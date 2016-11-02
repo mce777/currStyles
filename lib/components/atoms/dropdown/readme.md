@@ -1,8 +1,11 @@
 Basic drop-down:
 
-<div>
+<div value="sample">
   <select>
-    {options= ['test one', 'test two', 'test three']}
+    <option value="volvo">Volvo</option>
+    <option value="volvo1">Volvo2</option>
+    <option value="volvo2">Volvo3</option>
    
   </select>
 </div>
+
