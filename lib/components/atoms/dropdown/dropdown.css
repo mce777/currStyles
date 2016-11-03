@@ -1,6 +1,10 @@
-.root {
+select {
     border:1px solid #d8d8d8;
-    background:transparent;
-    height:32px;
+    border-radius: .3em;
+    background: #f8f8f8;
+    height:3em;
     width:300px;
+    font-size: 16px;
+    padding: 0px 30px;
+    display: inline-block;
 }

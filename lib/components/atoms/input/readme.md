@@ -1,1 +1,3 @@
-Basic input field
+an input field
+
+<input type="text" />
