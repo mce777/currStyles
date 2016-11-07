@@ -1,3 +1,3 @@
 Basic button:
 
-    <Button value="test btn"></Button>
+    <Button btnText="test btn"></Button>

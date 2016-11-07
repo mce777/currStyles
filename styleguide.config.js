@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-	title: 'basic style guide',
+	title: 'app style guide',
 	sections: [
 		{ name: 'Basic Styles', content: './docs/intro.md' },
 		{ components: './lib/components/**/**/*.js'}
