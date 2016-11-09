@@ -1,5 +1,5 @@
 .primary {
-    background-color: #595959;
+    background-color: #1e3f76;
     border: none;
     border-radius: .3em;
     color: #ffffff;
@@ -8,4 +8,8 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.primary:hover {
+    background-color: #205f9f;
 }

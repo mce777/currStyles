@@ -1,3 +1,3 @@
-Input with label
+Input with label:
 
-    <InputLabel inputName="Sample text" />
+    <InputLabel id="exampleID" inputName="Sample text" />
