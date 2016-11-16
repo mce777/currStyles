@@ -1,3 +1,3 @@
 The date:
 
-    <AppDate dateText="Rate from 31.12.2016" />
+    <AppDate text="Rate from " time="31.12.2016" />

@@ -2,7 +2,7 @@
   "name": "currstyles",
   "version": "1.0.0",
   "description": "currency styles",
-  "main": "main.js",
+  "main": "./styleguide/build/bundle.js",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.18.0",

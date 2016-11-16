@@ -1,3 +1,9 @@
 .root {
-    font-size: 0.8rem;
+    font-size: 0.8em;
+}
+
+.date {
+    /* css modules via webpack */
+    composes: root;
+    font-weight: 600;
 }

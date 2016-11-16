@@ -1,3 +1,3 @@
 an input field
 
-    <Input inputID="exID" />
+    <Input id="exID" />

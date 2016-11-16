@@ -1,2 +1,2 @@
 Main Header
-    <Header headerName="Name of Application" />
+    <Header>Name of Application</Header>
