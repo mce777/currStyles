@@ -1,4 +1,4 @@
 App Demo Setup:
 
-    <App />
+    <AppDemo />
     

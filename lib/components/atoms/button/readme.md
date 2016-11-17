@@ -1,6 +1,5 @@
 Basic button:
 
     <div>
-        <Button title="submit button" handleClick={() => {alert(0)}}>test btn</Button>
-        <Button title="submit button" href="#">test btn 2</Button>
+        <Button type="button" value="submit button" handleClick={() => {alert("button was pressed")}} />
     </div>
