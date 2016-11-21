@@ -1,6 +1,6 @@
 {
   "name": "currstyles",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "currency styles",
   "main": "./styleguide/build/bundle.js",
   "dependencies": {},
