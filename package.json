@@ -1,6 +1,6 @@
 {
   "name": "currstyles",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "currency styles",
   "main": "./styleguide/build/bundle.js",
   "dependencies": {},
@@ -8,17 +8,23 @@
     "babel-cli": "^6.18.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
+    "eslint": "^3.10.2",
+    "eslint-plugin-react": "^6.7.1",
     "react": "^15.3.2",
     "react-docgen-typescript": "0.0.1",
     "react-dom": "^15.3.2",
     "react-styleguidist": "^4.1.0",
     "style-loader": "^0.13.1",
+    "stylelint": "^7.6.0",
+    "stylelint-config-standard": "^15.0.0",
     "webpack": "^1.13.3",
     "webpack-hot-middleware": "^2.13.0"
   },
   "scripts": {
     "serve": "styleguidist server",
-    "build": "styleguidist build"
+    "build": "styleguidist build",
+    "lint:style": "stylelint './lib/components/**/*.css'",
+    "lint:js": "./node_modules/.bin/eslint ./lib/components/**/*.js"
   },
   "author": "",
   "license": "ISC"
