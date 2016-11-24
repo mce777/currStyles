@@ -1,2 +1,2 @@
 ##Currency Component Styles
-description pending....
+Description is no longer pending.  
