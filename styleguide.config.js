@@ -4,7 +4,7 @@ module.exports = {
 	title: 'app style guide',
 	sections: [
 		{ name: 'Basic Styles', content: './docs/intro.md' },
-		{ components: './lib/components/**/**/*.js'}
+		{ components: './lib/components/**/**/*.jsx'}
 	],
 	updateWebpackConfig(webpackConfig) {
 		// Your source files folder or array of folders ('lib' here), should not include node_modules
