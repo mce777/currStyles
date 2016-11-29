@@ -1,7 +1,7 @@
 import React from 'react';
 import type from '../../globals/typography.css';
 import style from './InputLabel.css';
-import Input from '../../atoms/input/Input'; // eslint-disable-line no-unused-vars
+import Input from '../../atoms/input/Input';
 
 export default class InputLabel extends React.Component {
 	propTypes = {
@@ -20,7 +20,8 @@ export default class InputLabel extends React.Component {
 			<div>
 				<label
 					className={type.label}
-					htmlFor={this.props.id}>
+					htmlFor={this.props.id}
+				>
 					{this.props.labelName}
 				</label>
 				<div className={style.inputDiv}>

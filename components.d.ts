@@ -8,16 +8,6 @@ declare module 'currstyles/lib/components/atoms/button/Button' {
     export default class Button extends React.Component<ButtonProps, any>{
     }
 }
-declare module 'currstyles/lib/components/atoms/button/Button' {
-    import * as React from 'react';
-    export interface ButtonProps {
-        handleClick: (...args: any[])=>any;
-        type: 'button' | 'submit' | 'reset';
-        value?: string;
-    }
-    export default class Button extends React.Component<ButtonProps, any>{
-    }
-}
 declare module 'currstyles/lib/components/atoms/date/AppDate' {
     import * as React from 'react';
     export interface AppDateProps {
