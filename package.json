@@ -29,8 +29,8 @@
     "build": "styleguidist build",
     "lint:style": "stylelint './lib/components/**/*.css'",
     "lint:js": "./node_modules/.bin/eslint ./lib/components/**/*.jsx",
-	"precompile-module": "rm -fr dist",
-    "compile-module": "babel lib/components/**/**/*.jsx --out-dir dist"
+	"precompile-module": "rm -fr ./dist/* && mkdir -p ./dist",
+    "compile-module": "babel lib/components/**/**/*.jsx --out-file dist/components.js"
   },
   "author": "",
   "license": "ISC"
