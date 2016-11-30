@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rm ./components.d.ts
+
 cat ./lib/components/atoms/button/Button.jsx | ./node_modules/.bin/react2dts --name "currstyles/lib/components/atoms/button/Button" >> ./components.d.ts
 cat ./lib/components/atoms/date/AppDate.jsx | ./node_modules/.bin/react2dts --name "currstyles/lib/components/atoms/date/AppDate" >> ./components.d.ts
 cat ./lib/components/atoms/dropdown/Dropdown.jsx | ./node_modules/.bin/react2dts --name "currstyles/lib/components/atoms/dropdown/Dropdown" >> ./components.d.ts

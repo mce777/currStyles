@@ -26,11 +26,11 @@
   },
   "scripts": {
     "serve": "styleguidist server",
-    "build": "styleguidist build",
+    "build": "styleguidist build && npm run compile-module",
     "lint:style": "stylelint './lib/components/**/*.css'",
     "lint:js": "./node_modules/.bin/eslint ./lib/components/**/*.jsx",
-	"precompile-module": "rm -fr ./dist/* && mkdir -p ./dist",
-    "compile-module": "babel lib/components/**/**/*.jsx --out-file dist/components.js"
+    "compile-module": "babel lib/components/**/**/*.jsx --out-dir ./",
+	"postcompile-module": "./createTypings.sh"
   },
   "author": "",
   "license": "ISC"
