@@ -27,7 +27,8 @@
     "serve": "styleguidist server",
     "build": "styleguidist build",
     "lint:style": "stylelint './lib/components/**/*.css'",
-    "lint:js": "./node_modules/.bin/eslint ./lib/components/**/*.jsx"
+    "lint:js": "./node_modules/.bin/eslint ./lib/components/**/*.jsx",
+	"compile-module": "babel lib/components/**/**/*.jsx --out-dir dist"
   },
   "author": "",
   "license": "ISC"
