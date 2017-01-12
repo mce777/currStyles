@@ -1,4 +1,4 @@
-.primary {
+.btnBase {
 	background-color: #1e3f76;
 	border: none;
 	border-radius: 0.3em;
@@ -11,6 +11,16 @@
 	text-decoration: none;
 }
 
-.primary:hover {
+.btnBase:hover {
 	background-color: #205f9f;
+}
+
+.btnPrimary {
+	margin-top: 60px;
+	background-color: #ff0000;
+	color: black;
+}
+
+.btnSecondary {
+	margin-top: 100px;
 }

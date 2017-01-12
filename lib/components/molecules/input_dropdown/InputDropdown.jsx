@@ -1,5 +1,6 @@
 import React from 'react';
 import InputLabel from '../input_label/InputLabel'; // eslint-disable-line no-unused-vars
+import Dropdown from '../../atoms/dropdown/Dropdown';
 import style from './InputDropdown.css';
 
 export default class InputDropdown extends React.Component {
